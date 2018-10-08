@@ -21,7 +21,7 @@ It was Made as the final project of Front End Web Developer Nanodegree.
  
 This application follows this [Udacity Project Rubric](https://review.udacity.com/#!/rubrics/1351/view)
 
-![Screenshot](./src/screenShots/screenshot1.png "Screenshot of the App")
+![Screenshot](./screenShots/screenshot1.png "Screenshot of the App")
 
 
 ## Important

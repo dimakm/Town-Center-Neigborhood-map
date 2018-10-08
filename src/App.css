@@ -1,0 +1,171 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #f5da9a;
+}
+
+#container {
+  display: flex;
+  float:left;
+}
+
+#header {
+  text-align: center;
+  color:#3b3e49;
+}
+
+#map {
+  height: 100vh;
+  }
+
+.theList {
+  margin-top: 15px;
+  padding: 0px;
+}
+
+#theFilter {
+  width: 70%;
+}
+.menu-result{
+  padding:0;
+}
+.menu-result ul {
+  width: 100%;
+  padding:10px;
+}
+.menu-result li {
+    list-style-type: none;
+    padding: 10px;
+    color: #3b3e49;
+    cursor: pointer;
+    font-weight: bold;
+    font-size:1.4em;
+    transition: all 300ms ease-in-out;
+}
+.menu-result li i{
+    font-weight: normal;
+    font-size:0.8em;
+}
+.menu-result li:hover {
+    color: #f5da9a;
+    background: #3b3e49;
+}
+
+.searchBar {
+  padding:20px 5px 5px 10px;
+}
+
+
+#Error-alert{
+}
+
+/*-----burger menu, reference https://www.npmjs.com/package/react-burger-menu ------*/
+.bm-burger-button {
+  position: fixed;
+  width: 35px;
+  height: 30px;
+  left: 30px;
+  top: 3vh;
+}
+
+.bm-burger-bars {
+    background: #3b3e49;
+}
+  
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 25px;
+  width: 25px;
+  margin: 10px 10px 3px 0;
+  padding: 15px;
+
+}
+  
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #3b3e49;
+}
+  
+.bm-menu {
+  background: #f5da9a;
+  font-size: 1.3em;
+}
+
+
+.bm-item-list {
+  margin: auto;
+  text-align: left;
+}
+
+/* list item */
+.bm-item {
+  display: inline-block;
+  margin: 0px;
+}
+
+
+/*---------Responsiveness----------*/
+
+@media screen and (max-width: 350px) {
+  #header {
+    margin-left: 7px;
+    padding-left: 7px;
+    font-size: 45%;
+  }
+  .bm-burger-button {
+      width: 20px;
+      height: 20px;
+      left: 15px;
+      top: 2vh;
+    }
+  .bm-menu i {
+    font-size: 70%;
+  }
+  
+}
+
+
+@media screen and (max-width: 530px) and (min-width: 351px) {
+  .bm-item-list {
+    padding: 0;
+  }
+  .bm-menu {
+    margin-top: 10px;
+    font-size: 1.2em;
+    width: 100%;
+  }
+
+  .bm-menu i {
+    font-size: 70%;
+  }
+
+  #header {
+      margin-left: 10px;
+      padding-left: 10px;
+      font-size: 70%
+    }
+  .bm-burger-button {
+    width: 30px;
+    height: 25px;
+    left: 20px;
+    top: 3vh;
+  }
+  }
+
+@media screen and (min-width: 800px) {
+  .bm-item-list {
+    padding: 0;
+  }
+  .bm-menu {
+    margin-top: 10px;
+    font-size: 0.8em;
+    width: 100%;
+  }  
+  #header {
+      font-size: 120%
+  }
+}

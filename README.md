@@ -34,7 +34,7 @@ The **Service Worker** works in the **production build**.
 
 To run the project follow the instructions below: 
 
-Download or clone [this repository in your computer](https://github.com/dimakm/Jax-Eats)
+Download or clone [this repository in your computer](https://github.com/dimakm/TCenter-Eats)
 
 cd to the repository folder, example cd c:/my-app and then in the repository folder:
 * install project dependencies with 

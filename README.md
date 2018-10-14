@@ -15,9 +15,9 @@ FEND GWG scholarship project
 
 ## Overview
 
-This is a single page application showing a map of some restaurants in St.Johns Town Center in Jacksonville, FL . 
+This is a single page application showing a map of some restaurants in St. Johns Town Center in Jacksonville, FL . 
 The app allows you to filter the list down as you type. In return, it displays the locations on the map.
-It was Made as the final project of Front End Web Developer Nanodegree.
+It was made as the final project of the Front End Web Developer Nanodegree.
  
 This application follows this [Udacity Project Rubric](https://review.udacity.com/#!/rubrics/1351/view)
 
@@ -60,7 +60,7 @@ npm start
 ## APIs used
 
 * Google Maps API for the map.
-* [FourSquare](https://developer.foursquare.com/) for getting the information for the the restaurants
+* [FourSquare](https://developer.foursquare.com/) for getting the information for the restaurants
 
 
 ## Credits and Useful Links
@@ -68,5 +68,5 @@ npm start
 * [Udacity | Neighborhood Map - Project Explained](https://www.youtube.com/playlist?list=PLgOB68PvvmWCGNn8UMTpcfQEiITzxEEA1) by Yahya Elharony.
 * [Working with the markers](https://developers.google.com/maps/documentation/javascript/markers)
 * I followed React documentation on [Error Boundaries](https://reactjs.org/docs/error-boundaries.html) for handeling errors.
-* Slack mates were great help, and I couldn't made it without the help of our awesome mentors , Hats off to those wonderful people.
+* Slack mates were great help, and I couldn't made it without the help of our awesome mentors, hats off to those wonderful people.
 **Special thanks to the reviewer**

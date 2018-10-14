@@ -1,5 +1,5 @@
 # TCenter-Eats
-FEND GWG scholarship project 
+FEND GWG scholarship project 7 
 
 > By Dima Kroma
 ![Part of the Udacity Front-End Web Development Nanodegree](https://img.shields.io/badge/Udacity-React-02b3e4.svg)
